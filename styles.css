@@ -1,0 +1,85 @@
+html, body {
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+  width: 100%;
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Amatic SC', cursive;
+}
+
+h3 {
+  font-size: 60px;
+}
+
+p {
+  max-width: 800px;
+  line-height: 1.5;
+  font-size: 18px;
+}
+
+.section-heading {
+  margin: 0px;
+}
+
+.hero {
+  height: 500px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background-image: url('images/hero.jpg');
+  background-position: center bottom;
+  background-size: cover;
+  flex-direction: column;
+  color: #f8eedf;
+}
+
+.hero > h1 {
+  font-size: 150px;
+  margin: 0px;
+}
+
+.hero > h2 {
+  font-size: 40px;
+  margin: 0px 0px;
+}
+
+.me {
+  padding: 24px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.me > .me-image {
+  background-image: url('images/milkyway.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  margin: 30px auto;
+}
+
+.work-samples {
+  background-image: url('images/worksamples.jpg');
+  background-position: center;
+  background-size: cover;
+  min-height: 500px;
+  width: 100%;
+  padding: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.work-samples > h3 {
+  color: #f8eedf;
+}
